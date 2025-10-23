@@ -6,9 +6,10 @@
 #    By: lupalhan <lupalhan@student.42.rio>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/20 13:44:54 by lupalhan          #+#    #+#              #
-#    Updated: 2025/10/20 13:45:20 by lupalhan         ###   ########.fr        #
+#    Updated: 2025/10/20 17:39:01 by lupalhan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME=libft
+NAME=libft.a
+
 SRCS=
