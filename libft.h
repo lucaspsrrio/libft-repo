@@ -6,7 +6,7 @@
 /*   By: lupalhan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 15:21:27 by lupalhan          #+#    #+#             */
-/*   Updated: 2025/10/24 17:45:03 by lupalhan         ###   ########.fr       */
+/*   Updated: 2025/10/24 18:04:23 by lupalhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,4 +15,5 @@
 # include <stdlib.h>
 
 int	ft_isalpha(int c);
+int	ft_isdigit(int c);
 #endif

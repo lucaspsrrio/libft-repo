@@ -6,7 +6,7 @@
 #    By: lupalhan <lupalhan@student.42.rio>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/17 19:03:03 by lupalhan          #+#    #+#              #
-#    Updated: 2025/10/24 15:29:11 by lupalhan         ###   ########.fr        #
+#    Updated: 2025/10/24 18:06:03 by lupalhan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,11 +16,8 @@ CFLAGS = -Wall -Wextra -Werror
 
 NAME = libft.a
 
-SRCS = ./ft_putchar.c \
-       ./ft_putstr.c \
-       ./ft_strcmp.c \
-       ./ft_strlen.c \
-       ./ft_swap.c
+SRCS = ./ft_isdigit.c \
+       ./ft_isalpha.c 
 
 OBJS = $(SRCS:.c=.o)
 
