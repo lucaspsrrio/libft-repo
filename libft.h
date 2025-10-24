@@ -6,12 +6,13 @@
 /*   By: lupalhan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 15:21:27 by lupalhan          #+#    #+#             */
-/*   Updated: 2025/10/24 15:22:55 by lupalhan         ###   ########.fr       */
+/*   Updated: 2025/10/24 17:45:03 by lupalhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+# include <stdlib.h>
 
-
+int	ft_isalpha(int c);
 #endif
