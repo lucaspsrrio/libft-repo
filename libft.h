@@ -6,7 +6,7 @@
 /*   By: lupalhan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 15:21:27 by lupalhan          #+#    #+#             */
-/*   Updated: 2025/10/24 18:13:00 by lupalhan         ###   ########.fr       */
+/*   Updated: 2025/10/24 18:19:49 by lupalhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,4 +17,5 @@
 int	ft_isalpha(int c);
 int	ft_isdigit(int c);
 int	ft_isalnum(int c);
+int	ft_isascii(int c);
 #endif
