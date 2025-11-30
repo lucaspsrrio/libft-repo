@@ -1,3 +1,5 @@
 # Unused files
 a.out
 main.c
+.gitignore
+*.swp
