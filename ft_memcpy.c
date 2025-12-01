@@ -6,7 +6,7 @@
 /*   By: lupalhan <lupalhan@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/30 15:23:39 by lupalhan          #+#    #+#             */
-/*   Updated: 2025/11/30 19:14:14 by lupalhan         ###   ########.fr       */
+/*   Updated: 2025/11/30 21:52:13 by lupalhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		return (NULL);
 	d = (unsigned char *)dest;
 	s = (const unsigned char *)src;
-	i = 0;
 	while (n--)
 	{
 		*d++ = *s++;

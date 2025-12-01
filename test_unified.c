@@ -6,12 +6,11 @@
 /*   By: lupalhan <lupalhan@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/30 21:13:06 by lupalhan          #+#    #+#             */
-/*   Updated: 2025/11/30 21:14:24 by lupalhan         ###   ########.fr       */
+/*   Updated: 2025/11/30 21:55:47 by lupalhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-#include <type.h>
 #include <string.h>
 #include <limits.h>
 #include <fcntl.h>
