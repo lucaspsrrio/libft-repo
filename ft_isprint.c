@@ -6,13 +6,11 @@
 /*   By: lupalhan <lupalhan@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 18:27:39 by lupalhan          #+#    #+#             */
-/*   Updated: 2025/10/24 18:38:46 by lupalhan         ###   ########.fr       */
+/*   Updated: 2025/11/30 19:09:43 by lupalhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isprint(int c)
 {
-	if (c >= 32 && c <= 126)
-		return (1);
-	return (0);
+	return (c >= 32 && c <= 126);
 }

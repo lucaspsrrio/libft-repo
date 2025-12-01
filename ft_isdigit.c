@@ -6,13 +6,11 @@
 /*   By: lupalhan <lupalhan@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 18:02:44 by lupalhan          #+#    #+#             */
-/*   Updated: 2025/10/24 18:04:06 by lupalhan         ###   ########.fr       */
+/*   Updated: 2025/11/30 19:09:22 by lupalhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isdigit(int c)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-	return (0);
+	return (c >= '0' && c <= '9');
 }

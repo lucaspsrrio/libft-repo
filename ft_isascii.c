@@ -6,16 +6,11 @@
 /*   By: lupalhan <lupalhan@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 18:16:01 by lupalhan          #+#    #+#             */
-/*   Updated: 2025/10/24 18:25:09 by lupalhan         ###   ########.fr       */
+/*   Updated: 2025/11/30 19:09:02 by lupalhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isascii(int c)
 {
-	unsigned int	nb;
-
-	nb = c;
-	if (nb >= 0 && nb <= 127)
-		return (1);
-	return (0);
+	return (c >= 0 && c <= 127);
 }
