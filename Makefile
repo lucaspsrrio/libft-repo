@@ -6,13 +6,15 @@
 #    By: lupalhan <lupalhan@student.42.rio>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/17 19:03:03 by lupalhan          #+#    #+#              #
-#    Updated: 2025/11/30 19:04:56 by lupalhan         ###   ########.fr        #
+#    Updated: 2025/12/01 18:56:48 by lupalhan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 cc	= cc
 
 CFLAGS	= -Wall -Wextra -Werror
+
+CPPFLAGS = -I.
 
 NAME	= libft.a
 
@@ -37,7 +39,7 @@ $(NAME): $(OBJS)
 clean:
 	rm -f $(OBJS)
 
-fclean:
+fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
